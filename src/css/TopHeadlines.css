@@ -1,0 +1,421 @@
+.middle {
+  background-image: url("https://www.usnews.com/object/image/0000018c-6a80-d2bc-a39d-ead0b4690000/gettyimages-1241527396.jpg?update-time=1702593917477&size=responsive970");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.middle h4 {
+  color: white;
+}
+.middle span {
+  color: white;
+}
+.middle h1 {
+  color: white;
+  font-size: 25px;
+}
+.text {
+  margin-left: 25px;
+  position: relative;
+  top: 225px;
+}
+/* /////////////// */
+.politics {
+  width: 315px;
+  height: 475px;
+  border: 1px solid #9297a1;
+  position: relative;
+}
+.politics .text {
+  position: absolute;
+  top: 0;
+  right: 14px;
+  text-align: center;
+}
+.politics .text h1 {
+  color: black;
+  font-size: 25px;
+}
+.politics .text p {
+  color: rgb(81, 87, 103);
+  font-size: 13px;
+}
+.politics .text span {
+  font-size: 12px;
+  color: black;
+}
+/* ////////// */
+.downs {
+  display: flex;
+  gap: 10px;
+}
+.about {
+  border: 1px solid #9297a1;
+  width: 315px;
+  height: 475px;
+  position: relative;
+}
+.about .text {
+  position: absolute;
+  top: 0;
+}
+.about .text h1 {
+  text-align: center;
+  color: black;
+  font-size: 18px;
+  margin-right: 25px;
+}
+.about .text h2 {
+  text-align: center;
+  color: black;
+  font-size: 21px;
+}
+.about img {
+  width: 100px;
+  margin: 0 auto;
+  margin-left: 98px;
+}
+.about .text p {
+  margin-top: 25px;
+  color: rgb(81, 87, 103);
+  font-size: 16px;
+  margin-right: 35px;
+}
+#more {
+  color: #1263d3;
+}
+
+hr.rank {
+  width: 288px;
+  position: relative;
+  right: 10px;
+  bottom: 2px;
+  border: 2px solid red;
+}
+hr.bottom {
+  width: 313px;
+  position: relative;
+  right: 25px;
+  bottom: 1px;
+  border: 2px solid black;
+}
+.about .text h2 {
+  margin-right: 35px;
+}
+hr.top {
+  width: 288px;
+  position: relative;
+  right: 10px;
+  bottom: 2px;
+  border: 2px solid red;
+}
+.aside {
+  width: 290px;
+  height: 910px;
+  border: 1px solid #9297a1;
+  position: relative;
+  right: 150px;
+  margin-top: 45px;
+}
+.asidee {
+  width: 290px;
+  height: 910px;
+  border: 1px solid #9297a1;
+  position: relative;
+  right: 150px;
+  margin-top: 45px;
+}
+.asidee h1 {
+  text-align: center;
+}
+.aside h1 {
+  text-align: center;
+}
+
+.asides .aside .text {
+  margin-left: 10px;
+  position: absolute;
+  top: 0;
+}
+.asides .aside .text h2 {
+  font-size: 18px;
+  color: black;
+}
+.asides .aside .text span {
+  font-size: 12px;
+  color: #2c303c;
+}
+.asides .aside .text p {
+  margin-top: 25px;
+  font-size: 13px;
+  color: black;
+}
+
+/* /////////////// */
+.asides .asidee .text {
+  margin-left: 10px;
+  position: absolute;
+  top: 0;
+}
+.asides .asidee .text h2 {
+  font-size: 18px;
+  color: black;
+}
+.asides .asidee .text span {
+  font-size: 12px;
+  color: #2c303c;
+}
+.asides .asidee .text p {
+  margin-top: 25px;
+  font-size: 13px;
+  color: black;
+}
+.asidee img {
+  width: 260px;
+}
+.list li {
+  color: #515767;
+}
+.best {
+  margin-left: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+}
+.asidee .bestimg {
+  width: 70px;
+  margin-right: 15px;
+}
+.rank {
+  position: relative;
+}
+.asidee {
+  width: 290px;
+  height: 910px;
+  border: 1px solid #9297a1;
+  position: relative;
+  left: 150px;
+  margin-top: 45px;
+}
+.asides {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.image {
+  /* border: 3px solid black; */
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.image p {
+  margin-left: 15px;
+  margin-bottom: 18px;
+  color: #6f7480;
+}
+.image img {
+  width: 50px;
+  border-radius: 8px;
+}
+/* /////////////////////////////////////////////////// MAIN */
+.main {
+  /* bottom: -750px; */
+  position: relative;
+  /* height: 200vh; */
+}
+.container2 {
+  width: 1250px;
+  /* height: 200vh; */
+  /* border: 10px solid green; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  right: -150px;
+}
+.sol {
+  width: 550px;
+  /* border: 2px solid red; */
+  /* height: 200vh; */
+  position: relative;
+}
+.sol .solhr {
+  width: 552px;
+  position: absolute;
+
+  top: -3px;
+  border: 1px solid rgb(214, 214, 214);
+}
+.sol h1 {
+  font-size: 22px;
+  color: red;
+}
+.sol h2 {
+  color: black;
+  font-size: 25px;
+}
+.sol span {
+  color: rgb(81, 87, 103);
+}
+.orta {
+  position: absolute;
+  top: 0px;
+  left: 550px;
+}
+.orta .images img {
+  width: 300px;
+}
+.sag {
+  position: absolute;
+  top: -2px;
+  right: -5px;
+}
+.sag h1 {
+  font-size: 20px;
+  color: black;
+}
+.sag hr.most {
+  width: 45px;
+  border: 1px solid red;
+}
+/* ///////////////////////////////BIR */
+.first {
+  display: flex;
+}
+.bir {
+  width: 30px;
+  border: 1px solid gray;
+}
+.bir h1 {
+  color: gray;
+  text-align: center;
+  font-size: 25px;
+}
+.text1 {
+  width: 350px;
+  border: 1px solid gray;
+  text-align: center;
+}
+.text1 p {
+  color: gray;
+  padding: 5px;
+  text-align: center;
+  font-size: 17px;
+}
+.always {
+  display: grid;
+}
+.daily {
+  margin-left: 40px;
+}
+.table {
+  border: 1px solid gray;
+
+  width: 100%;
+  /* background-color: red; */
+}
+.best {
+  text-align: center;
+}
+.bestt img {
+  width: 100px;
+  margin-left: 135px;
+  position: relative;
+  bottom: 24px;
+}
+.bestt h3 {
+  text-align: center;
+}
+.bestt p {
+  text-align: center;
+}
+hr.red {
+  width: 100%;
+  border: 1px solid gray;
+}
+.text10 {
+  margin-left: 15px;
+}
+hr.pht {
+  position: relative;
+  bottom: 55px;
+  width: 90px;
+  left: 155px;
+  border: 1px solid red;
+}
+.phtt {
+  position: relative;
+  bottom: 55px;
+  left: 155px;
+  font-size: 27px;
+}
+.photo {
+  top: 1850px;
+  background-image: url("https://www.usnews.com/object/image/0000018c-6ac1-dc4a-a3cf-eacbbe1e0001/dec14-pyss-x01.jpg?update-time=1702598423041&size=responsive970");
+  width: 900px;
+  height: 645px;
+  background-repeat: no-repeat;
+
+  /* border: 1px solid black; */
+  position: relative;
+
+  left: -150px;
+}
+.soll {
+  color: black;
+  position: relative;
+  left: 50px;
+  top: 15px;
+}
+.sagg {
+  background-image: url("https://www.usnews.com/object/image/0000018c-5f9a-d757-a5ac-dfbb61710000/israel-gaza-09.jpg?update-time=1702411129094&size=responsive970");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 320px;
+  height: 300px;
+  /* border: 1px solid black; */
+  color: black;
+  position: relative;
+  left: 620px;
+
+  bottom: 45px;
+}
+
+.downn {
+  background-image: url("https://www.usnews.com/object/image/0000018c-5fae-d913-a39f-5fee52c70001/biden-01.jpg?update-time=1702412318750&size=responsive970");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 320px;
+  height: 300px;
+  /* border: 1px solid black; */
+  color: black;
+  position: relative;
+  left: 0px;
+  top: 320px;
+}
+.sagg .text11 {
+  position: absolute;
+  bottom: 5px;
+  color: white;
+  left: 15px;
+  padding: 10px;
+}
+.galary {
+  display: flex;
+}
+.soll h1 {
+  font-size: 29px;
+}
+.save {
+  position: relative;
+  left: -150px;
+}
+/* .container {
+  background-color: red;
+}
+.main {
+  background-color: green;
+} */
